@@ -1,0 +1,81 @@
+============================
+Rocket Lobby System Manual
+============================
+This manual is here to answer any questions and provide means of contact!
+Please report any bugs you find in the Lobby System if something fails to work.
+Be sure to read below before making any reports!
+
+
+
+====I tried to join a game, and it sent me this document instead====
+
+This is intentional. There are two reasons as to why you cannot join a game right now.
+
+>> Reason 1: You are already in a game.
+If you are already in-game, you will not be allowed to join any other games. This is an
+anti-spam measure. This will prevent people from making hundreds of lobbies for no reason. Plus
+it's just a way to ensure you don't play two different games that have similar controls.
+
+>> Reason 2: You left in the middle of a running game.
+The Lobby System that this bot uses is designed to keep track of any players who are in a game.
+When a game ends, the lobby system will set your "in-game" flag to false. This way, you can join
+a new game. However, if the bot designer decided to allow users to leave in the middle of a game,
+this lobby system will not set your "in-game" flag until the game you left is finished.
+
+This is done on purpose. It will serve as a "cooldown" for however long the game will last. Leaving
+games can be frustrating to other players because it often times disrupts the flow of the game
+you were originally playing. This cooldown should not last very long. Try again in 1-3 minutes and
+it should work just fine.
+
+
+
+
+===Why didn't I join a game?====
+
+If the very first thing you do when you get on discord is attempt to use this bot, chances are the
+first request to join a game will not go through successfully. The Lobby System dynamically adds
+new users as they send messages in servers that the bot resides in.
+
+In other words, you have to send a message to be added into the Lobby's system. Normally people
+already begin conversations within servers before playing around with discord bots, so you will 
+usually never encounter this problem. However, if you do ever send a request that doesn't go
+through, just try again. You should be added into the system by now.
+
+
+
+
+====For some reason the last input I made is being re-used on the next turn with this game====
+
+If you inserted a command for a game like "roll again" that was automatically re-used when it
+became your turn, this has nothing to do with this Lobby System. The inputs you give are handled
+by the lobby system, but clearing the inputs are done through the bot designer. If you are having
+this issue, I recommend you contact the person who designed this bot and inform them of this bug.
+There's a good chance they forgot to clear user inputs every turn.
+
+
+
+
+====This game bugged out for some reason====
+
+Any games that were made by the bot designer were completely developed by the designers themselves.
+The Lobby System is only responsible for handling lobbies, RAM, users, and inputs. Any game related
+bug needs to be brought up to the bot designer, not to me (Rocket, the developer of the Lobby System)
+
+
+
+
+========================
+Other means of contact
+========================
+
+If you need to report any bugs you found that have no relation to what was stated above, here is
+a few ways you can contact me (again, the developer of the Lobby System).
+
+My Discord:
+Dustin#5962
+
+My Steam:
+https://steamcommunity.com/id/GamerRocket
+
+My GFL Account (Secondary Means of Communication if all else fails):
+https://gflclan.com/profile/42374-_rocket_/
